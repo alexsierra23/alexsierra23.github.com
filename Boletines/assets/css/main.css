@@ -1,0 +1,135 @@
+/*  
+
+*/
+
+.container{
+    background: #0ba3f0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #207edd, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #272727, #6d026d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content{
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.548);
+    position: relative;
+    padding-right: 3em;
+}
+
+.paragraph{
+    line-height: 1.8em;
+    font-weight: 200; 
+}
+
+html{
+    font-family: 'Nunito', sans-serif;
+}
+
+.title{
+    text-transform:capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0;
+    padding-left: 3em;
+}
+
+th{
+    font-size: 20px;
+    border-bottom: solid;
+    border-width: 1px;
+    border-color: #6d026d;
+}
+
+.table td, .table th {
+    padding: 0.5em;
+    text-align: left;
+}
+
+.fa-star{
+    color: rgb(252, 255, 77); 
+}
+
+.table tr:nth-child(even){background-color: rgba(194, 141, 201, 0.986);}
+
+.title-item{
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #6d026d;
+    padding-bottom: 2.4em;
+    width: 100%;
+    margin: 1em;
+    position: relative;
+}
+
+.position{
+    background-color: #6d026d;
+    color: white;
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.548);
+    position: absolute;
+    left: 1em;
+}
+
+.position2{
+    font-size: 35px;
+    padding: 15px;
+    position: absolute;
+    left: 1.6em;
+}
+
+.actions{
+    position: absolute;
+    right: 1em;
+    top: 1em;
+}
+
+.close{
+    width: 40px;
+    height: 40px;;
+    background-color: #6d026d;
+    cursor: pointer;
+    color: #ffffff;
+    box-shadow: 3px 5px 6px rgba(0, 0, 0, 0.548);
+    display: inline-block;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a:hover{
+    opacity: 0.4;
+}
+
+.text{
+    width: 100%;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+address{
+    font-size: 1.4em;
+    color: #6d026d;    
+}
+
+.main_img{
+    width: 30%;
+    height: 30%;
+    float: left;
+    margin-right: 1em;
+    margin-left: 1em;
+}
